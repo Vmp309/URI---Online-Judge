@@ -1,17 +1,14 @@
-#include <iostream>
- 
-using namespace std;
- 
+#include <stdio.h>
+
 int main() {
- 
-    int A, B, soma;
-    
-    cin >> A;
-    cin >> B;
-    
-     soma = A + B;
-    
-    cout << "SOMA = " << soma << endl;
- 
+
+    int a;
+    int b;
+
+    scanf ("%d", &a);
+    scanf ("%d", &b);
+
+    printf("SOMA = %d\n", a + b);
+
     return 0;
 }
